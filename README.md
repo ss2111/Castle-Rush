@@ -3,6 +3,9 @@ Game Design Game 3 Castle Rush
 
 Possible Sprites: http://opengameart.org/content/lpc-medieval-fantasy-character-sprites
 
+
+
+
 Essential Things to Add:
 
 Sounds
@@ -18,6 +21,8 @@ Unit Spawning
 A variety of units
 
 Multiplayer
+
+
 
 
 Bonus Adds:
