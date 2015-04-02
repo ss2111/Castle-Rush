@@ -4,6 +4,7 @@ using System.Collections.Generic;
 public class Board : MonoBehaviour 
 {
 	public List<Gem> gems = new List<Gem>();
+	public GameUI score;
 	public int GridWidth;
 	public int GridHeight;
 	public GameObject gemPrefab;
@@ -270,7 +271,9 @@ public class Board : MonoBehaviour
 			for(int i=0;i<rows.Count;i++)
 			{
 				rows[i].isMatched = true;
+				
 			}
+			GameUI.score += rows.Count;
 		}
 		if(collumns.Count >= AmountToMatch)
 		{
@@ -278,7 +281,9 @@ public class Board : MonoBehaviour
 			for(int i=0;i<collumns.Count;i++)
 			{
 				collumns[i].isMatched = true;
+				
 			}
+			GameUI.score += collumns.Count;
 		}
 	}
 	

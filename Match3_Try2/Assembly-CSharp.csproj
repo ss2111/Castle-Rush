@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Resources\Scripts\Board.cs" />
      <Compile Include="Assets\Resources\Scripts\Feeler.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameUI.cs" />
      <Compile Include="Assets\Resources\Scripts\Gem.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
