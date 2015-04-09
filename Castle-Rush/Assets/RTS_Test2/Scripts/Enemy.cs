@@ -9,7 +9,7 @@ public class Enemy : Photon.MonoBehaviour {
 	}
 	// Update is called once per frame
 	void Update () {
-		//transform.Translate(0,Time.deltaTime,0);
+		transform.Translate(0,Time.deltaTime,0);
 	}
 
 	[RPC]
@@ -19,20 +19,25 @@ public class Enemy : Photon.MonoBehaviour {
 	void OnCollisionEnter(Collision col)
 	{
 		print (col.gameObject.name);
-		if (col.gameObject.tag == "Bullet")
-		{//if we're hit by an arrow
-			if (health > 0)
-			{
+		if (col.gameObject.tag == "Bullet") {//if we're hit by an arrow
+			if (health > 0) {
 				//decrease enemy health
 				health -= 10f;
-				if (health <= 0)
-				{
+				if (health <= 0) {
 
-					DestroyObject(this.gameObject);
+					DestroyObject (this.gameObject);
 				}
 			}
-			col.gameObject.GetComponent<Bullet>().Destroy(); //disable the arrow
+			col.gameObject.GetComponent<Bullet> ().Destroy ();
 		}
 	}
+	void OnTriggerEnter(Collider col)
+	{
+		if(col.gameObject.tag == "Castle")
+		{	
+			DestroyObject(this.gameObject);
+		}
+	}
+
 
 }
