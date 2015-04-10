@@ -17,8 +17,7 @@ public class Ally : Photon.MonoBehaviour {
 	void Update () {
 		GetClosestEnemy ();
 		if (!hasTarget) {
-
-			//transform.Translate (0, Time.deltaTime * -1, 0);
+			transform.Translate (0, Time.deltaTime * 1, 0);
 		} 
 	}
 
@@ -51,4 +50,12 @@ public class Ally : Photon.MonoBehaviour {
 		}
 		return bestTarget;
 	}
+	void OnTriggerEnter(Collider col)
+	{
+		if(col.gameObject.tag == "Castle")
+		{	
+			DestroyObject(this.gameObject);
+		}
+	}
+
 }

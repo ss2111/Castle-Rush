@@ -1,10 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\RTS_Test2\Scripts\Enemy.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CastleSpawn.cs">
     <Files>
-      <File FileName="Assets\CastleSpawn.cs" Line="11" Column="2" />
-      <File FileName="Assets\Match3_Try2\Resources\Scripts\Board.cs" Line="92" Column="44" />
-      <File FileName="Assets\RTS_Test2\Scripts\Enemy.cs" Line="28" Column="17" />
+      <File FileName="Assets\RTS_Test2\Scripts\Ally.cs" Line="60" Column="2" />
+      <File FileName="Assets\CastleSpawn.cs" Line="22" Column="10" />
+      <File FileName="Assets\Match3_Try2\Resources\Scripts\Board.cs" Line="1" Column="1" />
+      <File FileName="Assets\RTS_Test2\Scripts\Enemy.cs" Line="12" Column="28" />
+      <File FileName="Assets\Photon Unity Networking\Demos\DemoChangeOwner\DemoOwnershipGui.cs" Line="41" Column="37" />
+      <File FileName="Assets\Photon Unity Networking\Demos\DemoChangeOwner\OnClickRequestOwnership.cs" Line="18" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

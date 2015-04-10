@@ -9,7 +9,7 @@ public class Enemy : Photon.MonoBehaviour {
 	}
 	// Update is called once per frame
 	void Update () {
-		transform.Translate(0,Time.deltaTime,0);
+		transform.Translate(0,-1 * Time.deltaTime,0);
 	}
 
 	[RPC]
