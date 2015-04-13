@@ -1,13 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\Player1Units.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CastleSpawn.cs">
     <Files>
-      <File FileName="Assets\CastleSpawn.cs" Line="28" Column="4" />
-      <File FileName="Assets\RTS_Test2\Scripts\Ally.cs" Line="19" Column="16" />
-      <File FileName="Assets\RTS_Test2\Scripts\Enemy.cs" Line="9" Column="1" />
+      <File FileName="Assets\CastleSpawn.cs" Line="45" Column="85" />
+      <File FileName="Assets\RTS_Test2\Scripts\Ally.cs" Line="1" Column="1" />
+      <File FileName="Assets\RTS_Test2\Scripts\Enemy.cs" Line="1" Column="1" />
       <File FileName="Assets\RTS_Test2\Scripts\Bullet.cs" Line="1" Column="1" />
       <File FileName="Assets\Resources\Player1Units.cs" Line="63" Column="37" />
-      <File FileName="Assets\Resources\Player2Units.cs" Line="63" Column="37" />
+      <File FileName="Assets\Resources\Player2Units.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
