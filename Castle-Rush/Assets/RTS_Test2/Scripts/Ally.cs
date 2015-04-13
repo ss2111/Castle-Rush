@@ -8,6 +8,7 @@ public class Ally : Photon.MonoBehaviour {
 	public float timer = 0;
 	public float fireTimer = 2;
 	public float rangeSquared = 5;
+	public float direction = 1;
 	// Use this for initialization
 	void Start () {
 	
@@ -17,7 +18,7 @@ public class Ally : Photon.MonoBehaviour {
 	void Update () {
 		GetClosestEnemy ();
 		if (!hasTarget) {
-			transform.Translate (0, Time.deltaTime * 1, 0);
+			transform.Translate (0, Time.deltaTime * direction, 0);
 		} 
 	}
 

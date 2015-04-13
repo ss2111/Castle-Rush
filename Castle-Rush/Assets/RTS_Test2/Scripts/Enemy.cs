@@ -6,16 +6,14 @@ public class Enemy : Photon.MonoBehaviour {
 	public float health;
 	public GameObject[] Targets = new GameObject[25];
 	public GameObject bulletPrefab;
-	private bool hasTarget = false;
-	public float timer = 0;
-	public float fireTimer = 2;
-	public float rangeSquared = 1;
+
+
 	void Start(){
 		health = 30f;
 	}
 	// Update is called once per frame
 	void Update () {
-		transform.Translate (0, -1 * Time.deltaTime, 0);
+		//transform.Translate (0, -1 * Time.deltaTime, 0);
 	}
 
 
