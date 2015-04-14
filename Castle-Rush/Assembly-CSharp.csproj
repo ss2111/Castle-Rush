@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Castle.cs" />
      <Compile Include="Assets\CastleSpawn.cs" />
      <Compile Include="Assets\Match3_Try2\Resources\Scripts\Board.cs" />
      <Compile Include="Assets\Match3_Try2\Resources\Scripts\Feeler.cs" />
@@ -163,7 +164,9 @@
      <Compile Include="Assets\RTS_Test2\Scripts\Ally.cs" />
      <Compile Include="Assets\RTS_Test2\Scripts\Bullet.cs" />
      <Compile Include="Assets\RTS_Test2\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Resources\Player1Castle.cs" />
      <Compile Include="Assets\Resources\Player1Units.cs" />
+     <Compile Include="Assets\Resources\Player2Castle.cs" />
      <Compile Include="Assets\Resources\Player2Units.cs" />
      <None Include="Assets\Plugins\Photon3Unity3D.xml" />
      <None Include="Assets\Photon Unity Networking\Demos\MarcoPolo-Tutorial\marcopolo-readme.txt" />

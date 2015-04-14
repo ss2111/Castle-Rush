@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
+using UnityEngine.Audio;
 using System.Collections;
 using System.Collections.Generic;
+[RequireComponent(typeof(AudioSource))]
 public class Board : MonoBehaviour 
 {
 	public List<Gem> gems = new List<Gem>();
@@ -17,6 +19,7 @@ public class Board : MonoBehaviour
 	public float SwapRate =2;
 	public int AmountToMatch = 3;
 	public bool isMatched = false;
+	public AudioClip matched;
 	// Use this for initialization
 	void Start () 
 	{
@@ -46,7 +49,12 @@ public class Board : MonoBehaviour
 						gems[i].transform.position.x,
 						gems[i].transform.position.y + GridHeight,
 						gems[i].transform.position.z);
-					GameUI.score += 100;
+					if(GameUI.score <=4900){
+						GameUI.score += 100;
+					}
+					else{
+						GameUI.score = 5000;
+					}
 				}
 			}
 			isMatched = false;
@@ -277,6 +285,8 @@ public class Board : MonoBehaviour
 				rows[i].isMatched = true;
 
 			}
+			GetComponent<AudioSource>().PlayOneShot(matched);
+
 
 		}
 		if(collumns.Count >= AmountToMatch)
@@ -287,7 +297,7 @@ public class Board : MonoBehaviour
 				collumns[i].isMatched = true;
 
 			}
-
+			GetComponent<AudioSource>().PlayOneShot(matched);
 		}
 	}
 	

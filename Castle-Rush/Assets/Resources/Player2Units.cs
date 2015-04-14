@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using System.Collections.Generic;
 public class Player2Units : Photon.MonoBehaviour {
 	
 	public float health = 30;
@@ -11,6 +11,7 @@ public class Player2Units : Photon.MonoBehaviour {
 	public float fireTimer = 2;
 	public float rangeSquared = 5;
 	public float speed = 1f;
+	GameObject target = null;
 	// Use this for initialization
 	void Start () {
 		
@@ -18,9 +19,10 @@ public class Player2Units : Photon.MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		GetClosestEnemy ();
+		target = GetClosestEnemy ();
 		if (!hasTarget) {
-			transform.Translate (0, -1* Time.deltaTime * speed, 0);
+			transform.position = Vector3.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
+			//transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.identity, Time.deltaTime * 2000);
 		} 
 	}
 	
@@ -32,6 +34,7 @@ public class Player2Units : Photon.MonoBehaviour {
 	GameObject GetClosestEnemy (){
 		
 		Targets = GameObject.FindGameObjectsWithTag("Player1");
+		
 		GameObject bestTarget = null;
 		float closestDistanceSqr = Mathf.Infinity;
 		Vector3 currentPosition = transform.position;
@@ -45,13 +48,21 @@ public class Player2Units : Photon.MonoBehaviour {
 				bestTarget = potentialTarget;
 			}
 		}
+		
+		
 		if (closestDistanceSqr <= rangeSquared) {
 			hasTarget = true;
+			
 			if (Time.time - timer > fireTimer) {
-				GameObject g = (GameObject)Instantiate (bulletPrefab, transform.position , Quaternion.identity);
+				
+				GameObject g = (GameObject)Instantiate (bulletPrefab, transform.position, Quaternion.identity);
 				g.GetComponent<Bullet> ().target = bestTarget.transform;
 				timer = Time.time;
+				
 			}
+			
+			
+			
 		} else {
 			hasTarget = false;
 		}
