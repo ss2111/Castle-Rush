@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Player2Castle : Photon.MonoBehaviour {
 	public float health = 300;
-	
+	public AudioClip victory;
 	// Use this for initialization
 	void Start () {
 		
@@ -15,6 +15,8 @@ public class Player2Castle : Photon.MonoBehaviour {
 	}
 	[RPC]
 	public void DestroyObject(GameObject g){
+
+		Application.LoadLevel("GameOver");
 		Destroy (g);
 	}
 	void OnTriggerEnter(Collider col){
