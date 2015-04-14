@@ -86,7 +86,7 @@ public class Player1Units : Photon.MonoBehaviour {
 
 	void OnTriggerEnter(Collider col){
 
-		if(col.gameObject.tag == "Castle")
+		if(col.gameObject.tag == "Castle2")
 		{	
 			DestroyObject(this.gameObject);
 		}
