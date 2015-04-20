@@ -13,9 +13,14 @@ public class Player1Castle : Photon.MonoBehaviour {
 	void Update () {
 		
 	}
-	[RPC]
+
 	public void DestroyObject(GameObject g){
-		Application.LoadLevel("Player2Victory");
+		if (photonView.isMine) {
+			PhotonNetwork.LoadLevel ("GameOver");
+		} 
+		else {
+			Application.LoadLevel ("Victory");
+		}
 		Destroy (g);
 	}
 	void OnTriggerEnter(Collider col){
