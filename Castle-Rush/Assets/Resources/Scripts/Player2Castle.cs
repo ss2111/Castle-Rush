@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Player2Castle : Photon.MonoBehaviour {
 	public float health = 300;
-	public AudioClip victory;
+
 	public GameObject healthbar;
 	// Use this for initialization
 	void Start () {

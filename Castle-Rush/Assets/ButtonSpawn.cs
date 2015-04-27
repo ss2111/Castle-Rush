@@ -32,6 +32,7 @@ public class ButtonSpawn : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		/*
 		if (Input.GetKeyDown (KeyCode.Q)) {
 			if (PhotonNetwork.player.ID == PhotonNetwork.masterClient.ID) {
 				GameUI.score = 5000;
@@ -56,7 +57,7 @@ public class ButtonSpawn : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.N)) {
 			Obj5();
 		}
-
+	*/
 	}
 
 	public void Obj1(){

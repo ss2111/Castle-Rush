@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+[RequireComponent(typeof(AudioSource))]
 public class Player2Units : Photon.MonoBehaviour {
 	
 	public float health = 30;
@@ -12,9 +13,11 @@ public class Player2Units : Photon.MonoBehaviour {
 	public float rangeSquared = 5;
 	public float speed = 1f;
 	GameObject target = null;
+	public AudioClip death;
+	//AudioSource audio;
 	// Use this for initialization
 	void Start () {
-		
+
 	}
 	
 	// Update is called once per frame
@@ -28,6 +31,7 @@ public class Player2Units : Photon.MonoBehaviour {
 	
 	[RPC]
 	public void DestroyObject(GameObject g){
+	
 		Destroy (g);
 	}
 	
@@ -68,7 +72,8 @@ public class Player2Units : Photon.MonoBehaviour {
 		}
 		return bestTarget;
 	}
-	void OnCollisionEnter(Collision col)
+
+	IEnumerator OnCollisionEnter(Collision col)
 	{
 		print (col.gameObject.name);
 		if (col.gameObject.tag == "Bullet1") {
@@ -76,7 +81,10 @@ public class Player2Units : Photon.MonoBehaviour {
 				//decrease enemy health
 				health -= 10f;
 				if (health <= 0) {
-					
+					this.GetComponent<AudioSource>().PlayOneShot(death);
+					this.gameObject.transform.position = new Vector3 (-10,10,10);
+					print (death.length);
+					yield return new WaitForSeconds(death.length);
 					DestroyObject (this.gameObject);
 				}
 			}
@@ -84,10 +92,14 @@ public class Player2Units : Photon.MonoBehaviour {
 		}
 	}
 	
-	void OnTriggerEnter(Collider col){
+	IEnumerator OnTriggerEnter(Collider col){
 		
 		if(col.gameObject.tag == "Castle1")
 		{	
+			this.GetComponent<AudioSource>().PlayOneShot(death);
+			this.gameObject.transform.position = new Vector3 (-10,10,10);
+			print (death.length);
+			yield return new WaitForSeconds(death.length);
 			DestroyObject(this.gameObject);
 		}
 	}

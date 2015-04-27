@@ -3,17 +3,17 @@ using System.Collections;
 
 public class AudioPlaying : MonoBehaviour {
 	public AudioClip GameOver;
-	AudioSource audio;
+	AudioSource audioPlayer;
 	// Use this for initialization
 	void Start () {
-		audio = GetComponent<AudioSource>();
+		audioPlayer = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (!audio.isPlaying) {
-			audio.clip = GameOver;
-			audio.Play();
+		if (!audioPlayer.isPlaying) {
+			audioPlayer.clip = GameOver;
+			audioPlayer.Play();
 		}
 	}
 }
