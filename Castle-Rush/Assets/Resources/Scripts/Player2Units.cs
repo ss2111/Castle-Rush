@@ -92,14 +92,14 @@ public class Player2Units : Photon.MonoBehaviour {
 		}
 	}
 	
-	IEnumerator OnTriggerEnter(Collider col){
+	void OnTriggerEnter(Collider col){
 		
 		if(col.gameObject.tag == "Castle1")
 		{	
-			this.GetComponent<AudioSource>().PlayOneShot(death);
-			this.gameObject.transform.position = new Vector3 (-10,10,10);
-			print (death.length);
-			yield return new WaitForSeconds(death.length);
+			//this.GetComponent<AudioSource>().PlayOneShot(death);
+			//this.gameObject.transform.position = new Vector3 (-10,10,10);
+			//print (death.length);
+			//yield return new WaitForSeconds(death.length);
 			DestroyObject(this.gameObject);
 		}
 	}
