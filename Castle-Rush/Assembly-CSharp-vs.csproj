@@ -182,7 +182,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>C:/Users/ss2111/Documents/GitHub/Castle-Rush/Castle-Rush/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ <HintPath>C:/Users/Scott/Documents/GitHub/Castle-Rush/Castle-Rush/Assets/Plugins/Photon3Unity3D.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

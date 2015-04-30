@@ -45,7 +45,7 @@ public class InGameMenu : MonoBehaviour {
 		}
 	}
 	public void ExitToMenu(){
-		Application.LoadLevel ("Defeat");
+		Application.LoadLevel ("GameOver");
 	}
 	public void ReturnToGame(){
 		Menu.enabled = false;
