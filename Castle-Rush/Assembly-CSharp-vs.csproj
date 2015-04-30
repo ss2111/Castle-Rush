@@ -166,6 +166,7 @@
      <Compile Include="Assets\Resources\Scripts\AudioPlaying.cs" />
      <Compile Include="Assets\Resources\Scripts\Castle.cs" />
      <Compile Include="Assets\Resources\Scripts\CastleSpawn.cs" />
+     <Compile Include="Assets\Resources\Scripts\InGameMenu.cs" />
      <Compile Include="Assets\Resources\Scripts\Player1Castle.cs" />
      <Compile Include="Assets\Resources\Scripts\Player1Units.cs" />
      <Compile Include="Assets\Resources\Scripts\Player2Castle.cs" />
