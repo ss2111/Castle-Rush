@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\ButtonSpawn.cs" />
+     <Compile Include="Assets\HostAndJoin.cs" />
      <Compile Include="Assets\Match3_Try2\Resources\Scripts\Board.cs" />
      <Compile Include="Assets\Match3_Try2\Resources\Scripts\Feeler.cs" />
      <Compile Include="Assets\Match3_Try2\Resources\Scripts\GameUI.cs" />
