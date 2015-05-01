@@ -82,7 +82,7 @@ public class Player1Units : Photon.MonoBehaviour {
 
 				if (health <= 0) {
 					this.GetComponent<AudioSource>().PlayOneShot(death);
-					this.gameObject.transform.position = new Vector3 (-10,10,10);
+					this.gameObject.transform.position = new Vector3 (-10,-10,10);
 					print (death.length);
 					yield return new WaitForSeconds(death.length);
 					DestroyObject (this.gameObject);

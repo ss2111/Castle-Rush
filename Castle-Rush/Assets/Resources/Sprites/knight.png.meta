@@ -1,0 +1,847 @@
+fileFormatVersion: 2
+guid: 868297a12aa72714bb8580d69443da93
+timeCreated: 1430501236
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: knight_0
+    21300002: knight_1
+    21300004: knight_2
+    21300006: knight_3
+    21300008: knight_4
+    21300010: knight_5
+    21300012: knight_6
+    21300014: knight_7
+    21300016: knight_8
+    21300018: knight_9
+    21300020: knight_10
+    21300022: knight_11
+    21300024: knight_12
+    21300026: knight_13
+    21300028: knight_14
+    21300030: knight_15
+    21300032: knight_16
+    21300034: knight_17
+    21300036: knight_18
+    21300038: knight_19
+    21300040: knight_20
+    21300042: knight_21
+    21300044: knight_22
+    21300046: knight_23
+    21300048: knight_24
+    21300050: knight_25
+    21300052: knight_26
+    21300054: knight_27
+    21300056: knight_28
+    21300058: knight_29
+    21300060: knight_30
+    21300062: knight_31
+    21300064: knight_32
+    21300066: knight_33
+    21300068: knight_34
+    21300070: knight_35
+    21300072: knight_36
+    21300074: knight_37
+    21300076: knight_38
+    21300078: knight_39
+    21300080: knight_40
+    21300082: knight_41
+    21300084: knight_42
+    21300086: knight_43
+    21300088: knight_44
+    21300090: knight_45
+    21300092: knight_46
+    21300094: knight_47
+    21300096: knight_48
+    21300098: knight_49
+    21300100: knight_50
+    21300102: knight_51
+    21300104: knight_52
+    21300106: knight_53
+    21300108: knight_54
+    21300110: knight_55
+    21300112: knight_56
+    21300114: knight_57
+    21300116: knight_58
+    21300118: knight_59
+    21300120: knight_60
+    21300122: knight_61
+    21300124: knight_62
+    21300126: knight_63
+    21300128: knight_64
+    21300130: knight_65
+    21300132: knight_66
+    21300134: knight_67
+    21300136: knight_68
+    21300138: knight_69
+    21300140: knight_70
+    21300142: knight_71
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: knight_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 207
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 205
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 207
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 208
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 204
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 208
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_6
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 206
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_7
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 207
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_8
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 206
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_9
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 203
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_10
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 208
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_11
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 215
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_12
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 208
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_13
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 215
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_14
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 203
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_15
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 203
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_16
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 203
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_17
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 159
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_18
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 158
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_19
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 159
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_20
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 160
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_21
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 156
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_22
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 161
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_23
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_24
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 157
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_25
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 155
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_26
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 156
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_27
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 161
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_28
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 159
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_29
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 161
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_30
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 159
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_31
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 158
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_32
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 158
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_33
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 158
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_34
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 111
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_35
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 110
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_36
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 112
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_37
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 111
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_38
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 110
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_39
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 114
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_40
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 111
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_41
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 112
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_42
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 108
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_43
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 101
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_44
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 113
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_45
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 110
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_46
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 113
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_47
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 110
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_48
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 110
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_49
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 110
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_50
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 110
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_51
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 63
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_52
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 60
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_53
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 63
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_54
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_55
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 61
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_56
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 66
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_57
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 63
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_58
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 64
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_59
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 61
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_60
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 57
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_61
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 15
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_62
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 13
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_63
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 15
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_64
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 15
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_65
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 12
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_66
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 19
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_67
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 13
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_68
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 15
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_69
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 14
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_70
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 12
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: knight_71
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 2
+        width: 126
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

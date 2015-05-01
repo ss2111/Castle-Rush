@@ -1,0 +1,781 @@
+fileFormatVersion: 2
+guid: f5da8718c68557a47a8cf4dde804b63e
+timeCreated: 1430501216
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: swordman_0
+    21300002: swordman_1
+    21300004: swordman_2
+    21300006: swordman_3
+    21300008: swordman_4
+    21300010: swordman_5
+    21300012: swordman_6
+    21300014: swordman_7
+    21300016: swordman_8
+    21300018: swordman_9
+    21300020: swordman_10
+    21300022: swordman_11
+    21300024: swordman_12
+    21300026: swordman_13
+    21300028: swordman_14
+    21300030: swordman_15
+    21300032: swordman_16
+    21300034: swordman_17
+    21300036: swordman_18
+    21300038: swordman_19
+    21300040: swordman_20
+    21300042: swordman_21
+    21300044: swordman_22
+    21300046: swordman_23
+    21300048: swordman_24
+    21300050: swordman_25
+    21300052: swordman_26
+    21300054: swordman_27
+    21300056: swordman_28
+    21300058: swordman_29
+    21300060: swordman_30
+    21300062: swordman_31
+    21300064: swordman_32
+    21300066: swordman_33
+    21300068: swordman_34
+    21300070: swordman_35
+    21300072: swordman_36
+    21300074: swordman_37
+    21300076: swordman_38
+    21300078: swordman_39
+    21300080: swordman_40
+    21300082: swordman_41
+    21300084: swordman_42
+    21300086: swordman_43
+    21300088: swordman_44
+    21300090: swordman_45
+    21300092: swordman_46
+    21300094: swordman_47
+    21300096: swordman_48
+    21300098: swordman_49
+    21300100: swordman_50
+    21300102: swordman_51
+    21300104: swordman_52
+    21300106: swordman_53
+    21300108: swordman_54
+    21300110: swordman_55
+    21300112: swordman_56
+    21300114: swordman_57
+    21300116: swordman_58
+    21300118: swordman_59
+    21300120: swordman_60
+    21300122: swordman_61
+    21300124: swordman_62
+    21300126: swordman_63
+    21300128: swordman_64
+    21300130: swordman_65
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: swordman_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 208
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 207
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 207
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 205
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 206
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_5
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 209
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_6
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 208
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_7
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 208
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_8
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 209
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_9
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 209
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_10
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 208
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_11
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 208
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_12
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 208
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_13
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 208
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_14
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 208
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_16
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 159
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_17
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 159
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_18
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 159
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_19
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 157
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_20
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 161
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_21
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 161
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_22
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_23
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 160
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_24
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 163
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_25
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 159
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_26
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 159
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_27
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 171
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_28
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 171
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_29
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 171
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_30
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 112
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_31
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 111
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_32
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 111
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_33
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 112
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_34
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 110
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_35
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 113
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_36
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 113
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_37
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 112
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_38
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 107
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_39
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 105
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_40
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 111
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_41
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 111
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_42
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 112
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_43
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 112
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_44
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 112
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_45
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 64
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_46
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 63
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_47
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_48
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 63
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_49
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 63
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_50
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 65
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_51
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 65
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_52
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 64
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_53
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 65
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_54
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 65
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_55
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 16
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_56
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 15
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_57
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 15
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_58
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 15
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_59
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 15
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_60
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 17
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_61
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 17
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_62
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 16
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_63
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 17
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_64
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 18
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordman_65
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 2
+        width: 126
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
