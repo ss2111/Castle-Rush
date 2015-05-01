@@ -16,7 +16,7 @@ Platform assembly: C:\Users\Scott\Documents\GitHub\Castle-Rush\CastleRush_Data\M
 Loading C:\Users\Scott\Documents\GitHub\Castle-Rush\CastleRush_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\Scott\Documents\GitHub\Castle-Rush\CastleRush_Data\Managed\Photon3Unity3D.dll (this message is harmless)
 Loading C:\Users\Scott\Documents\GitHub\Castle-Rush\CastleRush_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
-- Completed reload, in  0.061 seconds
+- Completed reload, in  0.111 seconds
 desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
