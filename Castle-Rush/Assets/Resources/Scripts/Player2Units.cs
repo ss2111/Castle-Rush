@@ -4,7 +4,8 @@ using System.Collections.Generic;
 [RequireComponent(typeof(AudioSource))]
 public class Player2Units : Photon.MonoBehaviour {
 	
-	public float health = 30;
+	public float health;
+	public float currenthealth;
 	private bool hasTarget = false;
 	public GameObject[] Targets = new GameObject[25];
 	public GameObject bulletPrefab;
@@ -14,10 +15,11 @@ public class Player2Units : Photon.MonoBehaviour {
 	public float speed = 1f;
 	GameObject target = null;
 	public AudioClip death;
+	public GameObject healthbar;
 	//AudioSource audio;
 	// Use this for initialization
 	void Start () {
-
+		currenthealth = health;
 	}
 	
 	// Update is called once per frame
@@ -77,10 +79,11 @@ public class Player2Units : Photon.MonoBehaviour {
 	{
 		print (col.gameObject.name);
 		if (col.gameObject.tag == "Bullet1") {
-			if (health > 0) {
+			if (currenthealth > 0) {
 				//decrease enemy health
-				health -= 10f;
-				if (health <= 0) {
+				currenthealth -= 10f;
+				healthbar.transform.localScale -= new Vector3((1f/(health/10f)),0,0);
+				if (currenthealth <= 0) {
 					this.GetComponent<AudioSource>().PlayOneShot(death);
 					this.gameObject.transform.position = new Vector3 (-10,10,10);
 					print (death.length);

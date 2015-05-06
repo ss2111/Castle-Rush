@@ -32,6 +32,7 @@ public class CastleSpawn : Photon.MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		/*
 		if (Input.GetKeyDown (KeyCode.Q)) {
 			if (PhotonNetwork.player.ID == PhotonNetwork.masterClient.ID) {
 				GameUI.score = 5000;
@@ -40,6 +41,7 @@ public class CastleSpawn : Photon.MonoBehaviour {
 				GameUI.score = 5000;
 			}
 		}
+		*/
 		if (Input.GetKeyDown (KeyCode.X)) {
 			if (PhotonNetwork.player.ID == PhotonNetwork.masterClient.ID) {
 				if(GameUI.score >= unit1Cost){

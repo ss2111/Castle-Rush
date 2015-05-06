@@ -1,13 +1,16 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\StartGame.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\Scripts\Player1Units.cs">
     <Files>
+      <File FileName="Assets\Resources\Scripts\Player2Castle.cs" Line="40" Column="2" />
+      <File FileName="Assets\Menu.cs" Line="1" Column="1" />
       <File FileName="Assets\StartGame.cs" Line="21" Column="4" />
-      <File FileName="Assets\Resources\Scripts\Player1Units.cs" Line="87" Column="6" />
-      <File FileName="Assets\Resources\Scripts\Player1Castle.cs" Line="1" Column="1" />
-      <File FileName="Assets\Resources\Scripts\Player2Units.cs" Line="85" Column="60" />
+      <File FileName="Assets\Resources\Scripts\Player1Units.cs" Line="84" Column="66" />
+      <File FileName="Assets\Resources\Scripts\Player1Castle.cs" Line="39" Column="4" />
+      <File FileName="Assets\Resources\Scripts\Player2Units.cs" Line="85" Column="66" />
       <File FileName="Assets\Resources\Scripts\CastleSpawn.cs" Line="1" Column="1" />
       <File FileName="Assets\Match3_Try2\Resources\Scripts\GameUI.cs" Line="1" Column="1" />
+      <File FileName="Assets\ButtonSpawn.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

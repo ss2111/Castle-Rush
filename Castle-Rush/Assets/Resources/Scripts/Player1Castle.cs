@@ -5,6 +5,7 @@ public class Player1Castle : Photon.MonoBehaviour {
 	public float health = 300;
 
 	public GameObject healthbar;
+	public AudioClip damage;
 	// Use this for initialization
 	void Start () {
 
@@ -25,13 +26,15 @@ public class Player1Castle : Photon.MonoBehaviour {
 		Destroy (g);
 	}
 	void OnTriggerEnter(Collider col){
-		
-		if (health > 0) {
-			//decrease enemy health
-			health -= 10f;
-			healthbar.transform.localScale -= new Vector3(0.1f,0,0);
-			if (health <= 0) {
-				DestroyObject (this.gameObject);
+		if (col.gameObject.tag == "Player2") {
+			if (health > 0) {
+				//decrease enemy health
+				health -= 10f;
+				this.GetComponent<AudioSource> ().PlayOneShot (damage);
+				healthbar.transform.localScale -= new Vector3 (0.1f, 0, 0);
+				if (health <= 0) {
+					DestroyObject (this.gameObject);
+				}
 			}
 		}
 		
