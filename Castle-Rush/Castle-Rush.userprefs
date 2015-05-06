@@ -1,17 +1,17 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Menu.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\StartGame.cs">
     <Files>
-      <File FileName="Assets\StartGame.cs" Line="33" Column="3" />
-      <File FileName="Assets\Resources\Scripts\Player2Castle.cs" Line="22" Column="5" />
-      <File FileName="Assets\Menu.cs" Line="93" Column="4" />
+      <File FileName="Assets\StartGame.cs" Line="37" Column="28" />
+      <File FileName="Assets\Resources\Scripts\Player2Castle.cs" Line="23" Column="9" />
+      <File FileName="Assets\Menu.cs" Line="118" Column="5" />
       <File FileName="Assets\Resources\Scripts\Player1Units.cs" Line="84" Column="66" />
-      <File FileName="Assets\Resources\Scripts\Player1Castle.cs" Line="39" Column="4" />
+      <File FileName="Assets\Resources\Scripts\Player1Castle.cs" Line="23" Column="9" />
       <File FileName="Assets\Resources\Scripts\Player2Units.cs" Line="1" Column="1" />
-      <File FileName="Assets\Resources\Scripts\CastleSpawn.cs" Line="1" Column="1" />
-      <File FileName="Assets\Match3_Try2\Resources\Scripts\GameUI.cs" Line="1" Column="1" />
-      <File FileName="Assets\ButtonSpawn.cs" Line="1" Column="1" />
-      <File FileName="Assets\Resources\Scripts\InGameMenu.cs" Line="6" Column="38" />
+      <File FileName="Assets\Resources\Scripts\InGameMenu.cs" Line="54" Column="3" />
+      <File FileName="Assets\Photon Unity Networking\UtilityScripts\ConnectAndJoinRandom.cs" Line="12" Column="36" />
+      <File FileName="Assets\Resources\Scripts\CastleSpawn.cs" Line="75" Column="5" />
+      <File FileName="Assets\Match3_Try2\Resources\Scripts\Board.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

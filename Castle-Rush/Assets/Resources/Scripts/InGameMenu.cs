@@ -11,10 +11,12 @@ public class InGameMenu : Photon.MonoBehaviour {
 	public Text QuitText;
 	public Text ReturnText;
 	public bool displayedMenu = false;
+	public Player1Castle Castle1;
+	public Player2Castle Castle2;
 
 	// Use this for initialization
 	void Start () {
-
+		PhotonNetwork.automaticallySyncScene = true;
 		Menu.enabled = false;
 		Quit.enabled = false;
 		Return.enabled = false;
@@ -46,10 +48,13 @@ public class InGameMenu : Photon.MonoBehaviour {
 	}
 	public void ExitToMenu(){
 		//Network.CloseConnection(Network.connections[0], true);
+		PhotonNetwork.Disconnect();
+		Network.Disconnect();
+		MasterServer.UnregisterHost();
 
-		PhotonNetwork.LoadLevel ("Victory");
-		Application.LoadLevel ("GUIMenu");
+		PhotonNetwork.LoadLevel ("GUIMenu");
 	}
+
 	public void ReturnToGame(){
 		Menu.enabled = false;
 		Quit.enabled = false;

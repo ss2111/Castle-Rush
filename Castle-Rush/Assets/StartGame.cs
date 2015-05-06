@@ -33,7 +33,17 @@ public class StartGame : Photon.MonoBehaviour {
 
 	}
 
-	void onPlayerDisconnect(NetworkPlayer player){
+	void OnPlayerConnected(NetworkPlayer player){
+		photonView.RPC ("MoveBlocker", PhotonTargets.All);
+		gameStart = true;
+	}
+
+	[RPC]
+	void OnDisconnectFromPhoton(){
+		PhotonNetwork.LoadLevel ("Victory");
+	}
+	[RPC]
+	void OnPlayerDisconnect(NetworkPlayer player){
 		PhotonNetwork.LoadLevel ("Victory");
 	}
 	/*
