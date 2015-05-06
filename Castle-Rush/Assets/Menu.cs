@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Menu : MonoBehaviour {
+public class Menu : Photon.MonoBehaviour {
 	public Texture2D texture = null;
 	public Texture2D Logo1 = null;
 	public Texture2D texture_helpButton = null;
@@ -113,6 +113,7 @@ public class Menu : MonoBehaviour {
 			GUILayout.Label(hd.gameName);
 			//Join Game Button
 			if (GUILayout.Button("Join Game")) {
+
 				Network.Connect(hd);
 				PhotonNetwork.LoadLevel("FullGame");
 			}

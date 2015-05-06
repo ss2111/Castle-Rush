@@ -30,6 +30,11 @@ public class StartGame : Photon.MonoBehaviour {
 		GemMatch.mute = false;
 		GameUI.score = 0;
 		waitingScreen.SetActive (false);
+
+	}
+
+	void onPlayerDisconnect(NetworkPlayer player){
+		PhotonNetwork.LoadLevel ("Victory");
 	}
 	/*
 	[RPC]

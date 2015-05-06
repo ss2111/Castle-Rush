@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
-public class InGameMenu : MonoBehaviour {
+public class InGameMenu : Photon.MonoBehaviour {
 
 	public Image Menu;
 	public Image Quit;
@@ -45,6 +45,9 @@ public class InGameMenu : MonoBehaviour {
 		}
 	}
 	public void ExitToMenu(){
+		//Network.CloseConnection(Network.connections[0], true);
+
+		PhotonNetwork.LoadLevel ("Victory");
 		Application.LoadLevel ("GUIMenu");
 	}
 	public void ReturnToGame(){
