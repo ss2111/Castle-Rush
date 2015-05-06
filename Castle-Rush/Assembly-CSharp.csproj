@@ -47,8 +47,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\ButtonSpawn.cs" />
-     <Compile Include="Assets\GUI_Assets\MyButton.cs" />
-     <Compile Include="Assets\GUI_Assets\MyGUI.cs" />
      <Compile Include="Assets\Match3_Try2\Resources\Scripts\Board.cs" />
      <Compile Include="Assets\Match3_Try2\Resources\Scripts\Feeler.cs" />
      <Compile Include="Assets\Match3_Try2\Resources\Scripts\GameUI.cs" />
@@ -176,6 +174,7 @@
      <Compile Include="Assets\Resources\Scripts\Player1Units.cs" />
      <Compile Include="Assets\Resources\Scripts\Player2Castle.cs" />
      <Compile Include="Assets\Resources\Scripts\Player2Units.cs" />
+     <Compile Include="Assets\StartGame.cs" />
      <None Include="Assets\Plugins\Photon3Unity3D.xml" />
      <None Include="Assets\Photon Unity Networking\Demos\MarcoPolo-Tutorial\marcopolo-readme.txt" />
      <None Include="Assets\Plugins\release_history.txt" />
